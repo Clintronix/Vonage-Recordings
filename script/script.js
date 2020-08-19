@@ -30,7 +30,7 @@ function downloadRecordings(JSON) {
   
 
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "https://api.vonage.com/t/vbc.prod/call_recording/v1/api/audio/recording/", true);
+  xhr.open("GET", "https://cors-anywhere.herokuapp.com/https://api.vonage.com/t/vbc.prod/call_recording/v1/api/audio/recording/", true);
   xhr.responseType = 'blob';
   xhr.setRequestHeader("Accept", "application/json");
   xhr.setRequestHeader("Authorization", "Bearer 002c0599-b6ad-3312-987e-100f6c22f523");
