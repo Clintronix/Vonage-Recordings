@@ -37,7 +37,10 @@ function downloadRecordings(JSON) {
   xhr.onload=function(e){download(xhr.response, "dlBinAjax.mp3", "audio/mpeg" ); }
   xhr.send();
   }
-
+var file = fs.createWriteStream("file.wav");
+var request = http.get("http://static1.grsites.com/archive/sounds/comic/comic002.wav", function(response) {
+  response.pipe(file);
+});
 
 }
 
