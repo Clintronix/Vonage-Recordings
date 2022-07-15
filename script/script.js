@@ -1,7 +1,7 @@
 
 // var json = function getUsers() {
-//     fetch('https://api.vonage.com/t/vbc.prod/provisioning/v1/api/accounts/325074/users',  {headers: {
-//         'Accept': 'application/json', 'Authorization': 'Bearer 6fc12625-ead2-38e7-9d21-d077a38e9861'
+//     fetch('https://api.vonage.com/t/vbc.prod/provisioning/v1/api/accounts/######/users',  {headers: {
+//         'Accept': 'application/json', 'Authorization': 'Bearer ######################################'
 //       }})
 //     .then(resp => resp.blob())
 //     .then(blob => {
